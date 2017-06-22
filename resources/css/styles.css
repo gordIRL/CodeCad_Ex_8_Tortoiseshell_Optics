@@ -20,7 +20,7 @@ body #main_banner            {  height:22rem;}
 #main_banner
 #box_title_inner              { padding: 0.75rem 4rem 0.75rem 4rem;
                                 font-size: 1.33rem;
-                                color: red; }
+                              /*  color: red;   */}
 
 
 #main_banner .container_nav   { width:100%;}
@@ -30,7 +30,7 @@ body #main_banner            {  height:22rem;}
 
 
 /*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
-#inner_hundred                { height: 3rem;   background-color: navy; }
+/*   #inner_hundred                { height: 3rem;   background-color: navy; }  */
 /*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
 
@@ -60,7 +60,7 @@ body #main_banner           { background-position: 20%;
                               /* justify-content:space-around;  */
 
                               width:100%;
-                              border: 2px solid red;    }
+                            /*  border: 2px solid red;  */  }
 
 
 
@@ -70,10 +70,10 @@ body #main_banner           { background-position: 20%;
                                 padding-bottom: 1rem;
                                 font-size: 1rem;
                                 justify-content: center;
-                                color: blue;
+                                color: black;
 
                                 width:100%;
-                                border: 2px solid green; }
+                              /*   border: 2px solid green;   */}
 
 footer                        {  justify-content: center;}
 
@@ -94,7 +94,7 @@ body #about          {    flex-direction: column;
 
                           margin-left: auto;
                           margin-right: auto;
-                          border: 2px solid blue;}
+                        /*   border: 2px solid blue;  */  }
 
 
 body .about_inner_box  {  width:100%;
@@ -110,14 +110,14 @@ body  .about_inner_box  h2  { width:100%;
                           margin-bottom: 4rem;
                           text-align: left;
                           font-size: .77rem;
-                          background-color: yellow;}
+                        /*  background-color: yellow;  */}
 
 
 
-body #USP_section              {margin:3.77rem 0rem 3.77rem 0rem;}
+body #USP_section        {margin:3.77rem 0rem 3.77rem 0rem;}
 body #USP_inner          {flex-direction: column;  }
-figcaption                {font-size: 0.77rem;}
-body figure               {margin:1.54rem 0 0 0;}
+figcaption               {font-size: 0.77rem;}
+body figure              {margin:1.54rem 0 0 0;}
 
 }    /*  end: media 470   */
 
@@ -261,10 +261,10 @@ nav                 {
                     justify-content: center;
                     align-items: flex-start;
 
-                    border: 2px solid red;
+                    /*  border: 2px solid red;  */
                     height: auto;               }
 
-#USP_inner          {border: 1px solid green;
+#USP_inner         {/*  border: 1px solid green;  */
                     display: flex;
                     flex-direction: row;
                     justify-content: center;}
@@ -281,7 +281,7 @@ figure          { width:auto;
                   align-items: center;
                   margin-bottom: 3rem;
                   background: white;
-                border:1px solid blue;            }
+                /*   border:1px solid blue;   */         }
 
 
 figcaption      { height: 2.5rem;
@@ -302,13 +302,13 @@ figcaption      { height: 2.5rem;
 /*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
 
-#about          { background-color: red;
+#about          { /*  background-color: red;  */
                   margin-bottom: 5rem;
                   display: flex;
                   flex-direction: row;
                   justify-content: center;
 
-                  border: 2px solid blue;}
+                /*   border: 2px solid blue;  */   }
 
 
 .about_inner_box  { width:35%;
